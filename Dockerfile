@@ -24,3 +24,7 @@ RUN      chmod -R a+rw /var/www
 VOLUME    /var/www
 
 CMD      /set_htpasswd.sh && nginx -g "daemon off;" 
+
+
+#SOURCE
+#https://hub.docker.com/r/visity/webdav/
